@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yitianyike.myssm.dao.RefreshDao">
+<!--实体映射 -->
+	
+	<!-- 创建  -->
+	<insert id="insertTMS">
+		INSERT INTO cms_tms_column(column_name,column_code)  values (
+			#{column_name},#{column_code})
+	</insert>
+	
+	
+
+</mapper>
